@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/isaachyoon/IYDigitalResume/issues"
   },
-  "homepage": "https://github.com/isaachyoon/IYDigitalResume#readme"
+  "homepage": "https://github.com/isaachyoon/IYDigitalResume#readme",
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
 }
