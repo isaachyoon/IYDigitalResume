@@ -1,0 +1,19 @@
+{
+  "name": "iydigitalresume",
+  "version": "1.0.0",
+  "description": "Isaac's online resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaachyoon/IYDigitalResume.git"
+  },
+  "author": "Isaac Yoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaachyoon/IYDigitalResume/issues"
+  },
+  "homepage": "https://github.com/isaachyoon/IYDigitalResume#readme"
+}
