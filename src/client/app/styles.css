@@ -1,0 +1,165 @@
+.navigation {
+	display: flex;
+	border-width: 5px
+	font-size: 30px;
+	border-style: solid;
+	align-items: flex-end;
+}
+
+.nav {
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end
+
+}
+.navLogo {
+	display: inline-flex;
+	justify-content: flex-start;
+}
+.navigationPanel {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+.intro {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/*background-image: url("../Assets/contactpict.jpg");*/
+	background-image: url("../Assets/background.jpg");
+	width: 99.5%;
+	height: 60%;
+	background-size: cover;
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	/*background-size: 60%;*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: center;*/
+	/*opacity: .5;*/
+	display: flex;
+	border-width: 3px;
+	border-style: solid;
+	justify-content: center;
+}
+
+.begAnimate {
+	padding: 30px;
+	font-size: 50px;
+
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.aboutMe {
+	display: inline-flex;
+	border-style: solid;
+	border-width: 3px;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+
+}
+.description {
+	width: 40%;
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+}
+.descriptionBox {
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.face {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+
+.projects {
+	background-image: url("../Assets/background.jpg");
+	background-size: cover;
+	/*background-color: black;*/
+	padding: 10px;
+	border-style: solid;
+	border-width: 3px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.projectImage:hover {
+	transform: scale(1.2);
+}
+
+.projectPanel {
+	display: inline-flex;
+	border-color: white;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20;
+	padding: 20;
+	border-bottom-style: solid
+}
+
+.projectDescription {
+	color: white;
+	width: 40%;
+	margin-left: 50;
+	font-size: 18px;
+	margin-bottom: 20;
+	font-size: 18px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.contactMe {
+
+	margin-top: 10px;
+	border-style: solid;
+	border-width: 3px;
+	padding: 20px;
+	font-size: 18px;
+	justify-content: center;
+}
+.contactMeSign {
+	display: flex;
+	justify-content: center;
+}
+
+.inputInfo {
+	display: flex;
+	justify-content: center;
+
+}
+
+.githubLogo {
+	color: white;
+}
