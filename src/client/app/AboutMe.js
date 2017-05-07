@@ -6,7 +6,7 @@ class AboutMe extends React.Component {
 
 	render(){
 		return (
-			<div className = 'aboutME'>
+			<div className = 'aboutME' id="about">
     		<img src = "Assets/about.jpg" height='90'/>
 
 	    		<div className = 'descriptionBox'>
