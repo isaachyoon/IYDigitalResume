@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-// import projectInfo from "./6project.json";
+import FaGithubAlt from "react-icons/lib/fa/github-alt";
 
 class Projects extends React.Component {
 
@@ -14,14 +14,21 @@ class Projects extends React.Component {
 
 		var indProject = projectInfo.map((project)=> {
 			return (
-				<div>
+				<div id = "projects">
 					<div className = "projectPanel" >
 						<img src = {project.projectImg} height = "300" className = 'projectImage'/>
 						<div className = "projectDescription" >
-							<h3> {project.projectTitle} </h3>
-							<h5> {project.projectDescription} </h5>
+							<div className = "projectTitle"> {project.projectTitle} </div>
+							<h4> {project.projectDescription} </h4>
+							<div className = "tech">
 							<div>
-								<img src = 'Assets/githubLogo.png' height = '50' className = 'githubLogo' onClick = {this.githubClicked.bind(this, project.githubLink)}/>
+								<FaGithubAlt className = 'iconic' height= "50px"/>
+							</div>
+								{project.techStack.map((item) => { return (
+									<div className = "techStack">
+										{item}
+									</div>
+								)})}
 							</div>
 						</div>
 					</div>
@@ -46,6 +53,14 @@ var projectInfo = [
 		"githubLink": "https://github.com/nazguls/thesis",
 		"githubLogo": "Assets/githubLogo",
 		"techStack": ["ReactNative-Redux", "Node/Express", "MySQL"]
+	},
+	{
+		"projectImg": "Assets/digitalPortfolio.png",
+		"projectTitle": "IYDigitalPortfolio",
+		"projectDescription": "Digital portfolio showcasing my past and recent software engineering applications. This single page application dynamically renders page and is built to be responsive to any web or mobile device.",
+		"githubLink": "https://github.com/isaachyoon/IYDigitalResume",
+		"githubLogo": "Assets/githubLogo",
+		"techStack": ["React", "Node/Express", "Heroku"]
 	},
 	{
 		"projectImg": "Assets/legislationWatch.png" ,

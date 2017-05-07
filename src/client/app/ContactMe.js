@@ -10,7 +10,7 @@ class ContactMe extends React.Component {
 
 	render(){
 		return (
-    	<div className = 'contactMe'>
+    	<div className = 'contactMe' id = "contact">
     		<div className = 'contactMeSign'>
     			<img src = "Assets/contactme.jpg" height='90'/>
     		</div>

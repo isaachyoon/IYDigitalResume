@@ -17,8 +17,8 @@ class App extends React.Component {
     	<div>
     		<Nav/>
     		<Intro/>
-    		<AboutMe/>
     		<Projects/>
+            <AboutMe/>
     		<ContactMe/>
     	</div>
     )
