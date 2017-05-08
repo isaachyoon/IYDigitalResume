@@ -23,16 +23,23 @@ class Intro extends React.Component {
           <div className = "icons">
             <a href = "linkedin.com/in/isaacyoon">
               <FaFileText className = 'icon' />
+              <div className = 'popUp'>Resume</div>
             </a>
             <a href = "http://linkedin.com/in/isaacyoon">
               <FaLinkedinSquare className = 'icon'/>
+              <div className = 'popUp'>linkedin</div>
             </a>
+
             <a href = "http://github.com/isaacHyoon">
               <FaGithubAlt className = 'icon' />
+              <div className = 'popUp'>Github</div>
             </a>
+
             <a href = "mailto:ysaacioon@yahoo.com" target="_top">
              <FaEnvelopeO className = 'icon'/>
+              <div className = 'popUp'>Email</div>
             </a>
+            <br/>
           </div>
       </div>
 		)

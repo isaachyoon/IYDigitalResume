@@ -9,6 +9,9 @@ class Projects extends React.Component {
 		window.open(link)
 	}
 
+	imageClicked(){
+		console.log('clicked')
+	}
 
 	render(){
 
@@ -16,7 +19,7 @@ class Projects extends React.Component {
 			return (
 				<div id = "projects">
 					<div className = "projectPanel" >
-						<img src = {project.projectImg} height = "300" className = 'projectImage'/>
+						<img src = {project.projectImg} height = "300" className = 'projectImage' onClick={this.imageClicked.bind(this)}/>
 						<div className = "projectDescription" >
 							<div className = "projectTitle"> {project.projectTitle} </div>
 							<h4> {project.projectDescription} </h4>
@@ -39,6 +42,8 @@ class Projects extends React.Component {
 
 		return (
     	<div className = "projects">
+    		<img src = "Assets/projects.png" height='90'/>
+
     		{indProject}
     	</div>
 		)
