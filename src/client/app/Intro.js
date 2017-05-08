@@ -17,8 +17,8 @@ class Intro extends React.Component {
           <div className ='begAnimate'>
           	<br/>
             Hi! I'm Isaac! <br/>
-            Welcome to my page where you can find my current and past work! <br/>
-            If you have any questions, please leave me a message :)
+            Welcome to my digital portfolio where you can find my past and current work! <br/>
+            If you have any questions, click on any of the icons below to connect with me :)
           </div>
           <div className = "icons">
             <a href = "linkedin.com/in/isaacyoon">
