@@ -21,7 +21,7 @@ class Intro extends React.Component {
             If you have any questions, click on any of the icons below to connect with me :)
           </div>
           <div className = "icons">
-            <a href = "linkedin.com/in/isaacyoon">
+            <a href = "https://goo.gl/TTQcD8">
               <FaFileText className = 'icon' />
               <div className = 'popUp'>Resume</div>
             </a>
