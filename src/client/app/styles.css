@@ -157,6 +157,15 @@ a {
 	margin-left: 100px;
 }
 
+.arrows {
+	font-size: 25px;
+	color: white;
+}
+
+.arrows:hover {
+	transform: scale(1.2);
+	transition: all 0.5s cubic-bezier(0.42, 0, 0.02, 2.17);
+}
 
 .projects {
 	background-image: url("../Assets/background.jpg");
