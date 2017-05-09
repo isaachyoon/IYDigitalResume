@@ -1,6 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
 import FaGithubAlt from "react-icons/lib/fa/github-alt";
+import FaAngleDoubleRight from 'react-icons/lib/fa/angle-double-right';
+import FaAngleDoubleLeft from 'react-icons/lib/fa/angle-double-left';
+
+
 
 class Projects extends React.Component {
 
@@ -19,7 +23,9 @@ class Projects extends React.Component {
 			return (
 				<div id = "projects">
 					<div className = "projectPanel" >
+						<FaAngleDoubleLeft height = '50px'/>
 						<img src = {project.projectImg} height = "300" className = 'projectImage' onClick={this.imageClicked.bind(this)}/>
+						<FaAngleDoubleRight />
 						<div className = "projectDescription" >
 							<div className = "projectTitle"> {project.projectTitle} </div>
 							<h4> {project.projectDescription} </h4>

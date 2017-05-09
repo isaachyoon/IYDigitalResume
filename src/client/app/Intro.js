@@ -40,6 +40,7 @@ class Intro extends React.Component {
               <div className = 'popUp'>Email</div>
             </a>
             <br/>
+            <br/>
           </div>
       </div>
 		)
