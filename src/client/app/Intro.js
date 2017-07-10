@@ -21,7 +21,7 @@ class Intro extends React.Component {
             If you have any questions, click on any of the icons below to connect with me :)
           </div>
           <div className = "icons">
-            <a href = "https://goo.gl/TTQcD8">
+            <a href = "https://drive.google.com/file/d/0B8SfZITBG2KpYWxyaVpEeFBnVVE/view?usp=sharing">
               <FaFileText className = 'icon' />
               <div className = 'popUp'>Resume</div>
             </a>
